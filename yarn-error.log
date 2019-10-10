@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add nodeon -d
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\LAIRES\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Users\LAIRES\Downloads\lua-5.3.4_Win32_bin\lua53.exe;C:\Program Files (x86)\Dev-Cpp\MinGW64\bin;C:\Program Files\Java\jdk-10.0.1\bin;C:\Users\LAIRES\Downloads\lua-5.3.4_Win32_bin;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Git\;C:\xampp\php;C:\Users\LAIRES\AppData\Local\Android\Sdk;C:\Users\LAIRES\AppData\Local\Android\Sdk\platform-tools;C:\Users\LAIRES\AppData\Local\Android\Sdk\tools\bin;C:\tools\bin;C:\Users\LAIRES\AppData\Local\Android\Sdk\tools\lib;C:\Users\LAIRES\.android\avd;C:\Users\LAIRES\AppData\Local\Android\Sdk\extras\intel\Hardware_Accelerated_Execution_Manager;C:\Users\LAIRES\android-sdks\extras\android\Hardware_Accelerated_Execution_Manager;C:\Users\LAIRES\AppData\Local\Android\Sdk\emulator\qemu\windows-x86_64;C:\Program Files\qemu;C:\Program Files\Java\jdk-11.0.2\bin;%LOVE2D_HOME%\lovegame;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Dart\dart-sdk\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Users\LAIRES\Anaconda3;C:\Users\LAIRES\Anaconda3\Library\mingw-w64\bin;C:\Users\LAIRES\Anaconda3\Library\usr\bin;C:\Users\LAIRES\Anaconda3\Library\bin;C:\Users\LAIRES\Anaconda3\Scripts;C:\Users\LAIRES\AppData\Local\Microsoft\WindowsApps;C:\Users\LAIRES\Downloads\lua53;C:\Program Files\LOVE;C:\Program Files\Java\jdk-10.0.1\bin;C:\Program Files\Java\jre1.8.0_171\bin;C:\Program Files\Java\jre-10.0.1\bin;C:\Program Files (x86)\Dev-Cpp\MinGW64\bin;C:\Users\LAIRES\Downloads\lua-5.3.4_Win32_bin\lua53.exe;C:\Program Files\Microsoft VS Code\bin;C:\Users\LAIRES\Downloads\luaforwindows-master\luaforwindows-master\files;C:\Windows\SysWOW64;C:\Program Files\lua.exe;C:\Users\LAIRES\Downloads\lua-5.1.5;C:\xampp\php;C:\Users\LAIRES\AppData\Local\Android\Sdk;C:\Users\LAIRES\AppData\Local\Android\Sdk\platform-tools;C:\Users\LAIRES\AppData\Local\Android\Sdk\tools\bin;C:\tools\bin;C:\Users\LAIRES\AppData\Local\Android\Sdk\tools\lib;C:\Users\LAIRES\.android\avd;C:\Users\LAIRES\AppData\Local\Android\Sdk\extras\intel\Hardware_Accelerated_Execution_Manager;C:\Users\LAIRES\android-sdks\extras\android\Hardware_Accelerated_Execution_Manager;C:\Users\LAIRES\AppData\Local\Android\Sdk\emulator\qemu\windows-x86_64;C:\Program Files\qemu;C:\Users\LAIRES\AppData\Roaming\npm;C:\Users\LAIRES\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.19.0
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/nodeon: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66027:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140539:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141511:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141433:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
